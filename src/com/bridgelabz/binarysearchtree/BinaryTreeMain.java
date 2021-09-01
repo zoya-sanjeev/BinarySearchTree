@@ -3,7 +3,10 @@ package com.bridgelabz.binarysearchtree;
 public class BinaryTreeMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		MyBinaryTree<Integer> myBinaryTree=new MyBinaryTree<>();
+		myBinaryTree.add(56);
+		myBinaryTree.add(30);
+		myBinaryTree.add(70);
 
 	}
 
