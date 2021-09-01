@@ -19,6 +19,11 @@ public class BinaryTreeMain {
 		myBinaryTree.add(16);
 		int size=myBinaryTree.getSize();
 		System.out.println(size);
+		boolean found=myBinaryTree.search((Integer)63);
+		if(found)
+			System.out.println("Key Found");
+		else
+			System.out.println("Key Not Found");
 	}
 
 }
